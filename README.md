@@ -1,8 +1,6 @@
-# Bacong 
+# Bacong - Movie CRUD API
 
-# Movie CRUD API
-
-# Overview
+## Overview
 
 This project is an Express API that manages a movie database. It allows users to perform basic CRUD (Create, Read, Update, Delete) operations on a collection of movies. Each movie has the following properties:
 
@@ -13,9 +11,9 @@ This project is an Express API that manages a movie database. It allows users to
 *genre (string, required)
 The API is connected to a MySQL database for data persistence.
 
-# API Endpoints
+## API Endpoints
 
-1. Get all movies
+### 1. Get all movies
 Route: GET /movies
 Description: Returns a list of all movies in the collection.
 Response:
@@ -163,3 +161,5 @@ You can test the API using Insomnia by performing the following operations:
 ## Conclusion
 
 This project provides an easy-to-use API for managing a movie collection with the capability to create, read, update, and delete movies. The API is built with Node.js, Express, and MySQL, and it includes basic validation and error handling.
+
+Repository: Bacong, Angel Kay R. (movies_db ACTIVITY-CRUD)
